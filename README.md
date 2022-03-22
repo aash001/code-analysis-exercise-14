@@ -21,14 +21,14 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|function (Jjones08){if (user.isactive)}|{return 'Welcome back, Jjones08!'}| 
+|function (Holly92) {if (user.isInactive)} |{return 'Hey Holly92! Would you like to renew your subscription?'}| 
+|function (Sam28){if (user.isactive)}|{return 'Welcome back, Sam28!'}| 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program gives a message to the login user based on whether they have an active account or not.</td>
   </tr>
 </table>
 

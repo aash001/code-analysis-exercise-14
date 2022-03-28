@@ -21,9 +21,9 @@ Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
-|function (Jjones08){if (user.isactive)}|{return 'Welcome back, Jjones08!'}| 
-|function (Holly92) {if (user.isInactive)} |{return 'Hey Holly92! Would you like to renew your subscription?'}| 
-|function (Sam28){if (user.isactive)}|{return 'Welcome back, Sam28!'}| 
+|user.Johnny = {isActive: true, username:'Jjones08'}| Welcome back, Jjones08!| 
+|user.Holly = {isActive: false, username:'Holly92'} |Hey Holly92! Would you like to renew your subscription?| 
+|user.Sam = {user.isActive: true, username: 'Sam28'}|Welcome back, Sam28!| 
 
 <table>
   <tr>
